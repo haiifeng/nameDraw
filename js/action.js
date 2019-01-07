@@ -22,7 +22,7 @@ const doit=() => {
 }
 
 const show = ()=> {
-    let box = window.document.getElementById("box");
+    let box = document.querySelector("#box");
     let num = Math.floor( Math.random() * nameList.length );
     box.innerHTML = nameList[num];
     mytime = setTimeout("show()", 1);
