@@ -21,7 +21,7 @@ function doit() {
 
 function show() {
     var box = window.document.getElementById("box");
-    var num = Math.floor((Math.random() * 7410852963)) % nameList.length;
+    var num = Math.floor( Math.random() * nameList.length );
     box.innerHTML = nameList[num];
     mytime = setTimeout("show()", 1);
     selected=num;
