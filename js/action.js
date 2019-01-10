@@ -3,6 +3,7 @@
  * 抽中名字后该字符串即删掉。
  */
 let mytime = null;
+let nameList=Array.from(Array(400), (v,k) =>k);
 let selected=nameList.length;
 
 const doit=() => {
@@ -25,6 +26,7 @@ const show = ()=> {
     let box = document.querySelector("#box");
     let num = Math.floor( Math.random() * nameList.length );
     box.innerHTML = nameList[num];
+    console.log(num,nameList);
     mytime = setTimeout("show()", 1);
     selected=num;
 }
