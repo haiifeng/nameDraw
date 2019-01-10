@@ -10,21 +10,32 @@ html, body {
 
 #bodybj {
     height: 100%;
-    background: url('../images/bg.jpg') no-repeat center top;
+    background: url('../images/nameBg.png') no-repeat center top;
     overflow: hidden;
+}
+
+#nameTitle {
+    margin: auto;
+    width: 800px;
+    font-size: 70px;
+    height: 80px;
+    color: #fff;
+    text-align: center;
+    padding: 0 30px;
+    margin-top: 200px;
 }
 
 #box {
     margin: auto;
     width: 660px;
     font-size: 100px;
-    height: 94px;
+    height: 98px;
     line-height: 94px;
     overflow: hidden;
     color: #555555;
     text-align: center;
     padding: 0 30px;
-    margin-top: 440px;
+    margin-top: 154px;
 }
 
 #bt {
