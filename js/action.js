@@ -27,6 +27,7 @@ const doit=()=> {
     } else {
         bt.innerHTML = "开始抽奖";
         clearTimeout(mytime);
+        clearTimeout(timer);
         nameList.splice(selected,1);
         console.log('某次名单',nameList);
         if(nameList.length===0){
