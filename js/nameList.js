@@ -2,7 +2,7 @@
  * 哗啦啦年会抽奖名单
  * 共计	354
  */
-const nameList=[];
+// const nameList=[];
 const Center=[1,2,3,4];
 const Finance=[11,22,33,44];
 const Administration=[21,22,23,34];
