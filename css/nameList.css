@@ -57,5 +57,7 @@ html, body {
     width:100px;
     height: 40px;
     background-color: rgba(0,0,0,0);
-    cursor:pointer
+    cursor:pointer;
+    color:#fff;
+    font-size: 30px;
 }
